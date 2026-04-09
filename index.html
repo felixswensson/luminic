@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Luminic Light Meter ‚Äî Pro Light Meter for iPhone</title>
+<meta name="description" content="A simple, no-nonsense light meter for iPhone, inspired by the handheld meters we loved in the 90s.">
+<style>
+  :root {
+    --bg: #1a1a1c;
+    --panel: #232327;
+    --text: #e8e8ea;
+    --muted: #9a9aa0;
+    --accent: #c8d4a8;
+    --border: #34343a;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.6;
+  }
+  .container { max-width: 720px; margin: 0 auto; padding: 64px 24px; }
+  header { text-align: center; margin-bottom: 56px; }
+  .logo {
+    font-size: 42px;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: 1px;
+    color: #d4d4d8;
+    margin-bottom: 8px;
+  }
+  .tagline { color: var(--muted); font-size: 17px; }
+  h2 {
+    font-size: 22px;
+    margin-bottom: 16px;
+    margin-top: 40px;
+    font-weight: 700;
+  }
+  p, li { color: var(--text); font-size: 16px; margin-bottom: 12px; }
+  ul { padding-left: 22px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .panel {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 24px 28px;
+    margin-top: 16px;
+  }
+  footer {
+    margin-top: 80px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    text-align: center;
+    color: var(--muted);
+    font-size: 14px;
+  }
+  code {
+    background: var(--panel);
+    border: 1px solid var(--border);
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="logo">LUMINIC</div>
+      <div class="tagline">A pro light meter for iPhone</div>
+    </header>
+
+    <h2>About</h2>
+    <p>A simple, no-nonsense light meter for iPhone, inspired by the handheld meters we loved in the 90s.</p>
+    <p>Point your phone at a scene, get accurate exposure readings in aperture or shutter priority.</p>
+    <p>Tested against pro DSLR meters ‚Äî accurate to within 1/3 stop.</p>
+
+    <h2>Features</h2>
+    <ul>
+      <li>Real-time EV measurement</li>
+      <li>Aperture Priority and Shutter Priority modes</li>
+      <li>Full ISO, aperture, and shutter speed stops</li>
+      <li>Wide, ultra-wide, and telephoto lens switching</li>
+      <li>Cinematic stabilization for steady readings</li>
+      <li>Authentic LCD display</li>
+      <li>Works completely offline</li>
+      <li>No ads, no tracking, no account required</li>
+    </ul>
+
+    <h2>How to Use</h2>
+    <div class="panel">
+      <p><strong>1.</strong> Launch Luminic Light Meter and grant camera permission when asked.</p>
+      <p><strong>2.</strong> Point your iPhone at the scene you want to meter.</p>
+      <p><strong>3.</strong> Tap <strong>MODE</strong> to switch between Aperture Priority (A) and Shutter Priority (S).</p>
+      <p><strong>4.</strong> Use the <strong>ISO</strong> buttons to set your film/sensor speed.</p>
+      <p><strong>5.</strong> Use the <strong>‚ñ≤ / ‚ñº</strong> buttons to change the locked value (aperture or shutter, depending on mode).</p>
+      <p><strong>6.</strong> Tap the lens label in the top-left to switch between cameras on supported iPhones.</p>
+    </div>
+
+    <h2>Troubleshooting</h2>
+    <p><strong>Camera not working?</strong> Check <code>Settings ‚Üí Privacy & Security ‚Üí Camera ‚Üí Luminic</code> and make sure access is enabled.</p>
+    <p><strong>Readings look off?</strong> Luminic Light Meter uses the iPhone camera sensor, which is calibrated differently than a dedicated incident meter. For critical work, calibrate against a known reference and apply a fixed offset in your head.</p>
+    <p><strong>App is shaky?</strong> Cinematic stabilization is enabled by default. If you're seeing jitter, try switching lenses or restarting the app.</p>
+
+    <h2>Privacy</h2>
+    <p>Luminic Light Meter does not collect, store, or transmit any data. The camera feed is processed entirely on your device and is never recorded. Read the full <a href="privacy.html">Privacy Policy</a>.</p>
+
+    <h2>Contact</h2>
+    <p>Bug reports, feature requests, and general feedback: <a href="mailto:luminicapp@gmail.com">luminicapp@gmail.com</a></p>
+
+    <footer>
+      ¬© 2026 Felix Swensson
+    </footer>
+  </div>
+</body>
+</html>
